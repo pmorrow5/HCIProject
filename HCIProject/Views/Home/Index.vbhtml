@@ -2,6 +2,14 @@
   ViewData("Title") = "Home Page"
 End Code
 
+
+<script src="Scripts"> </script>
+<script>
+
+
+
+</script>
+
 <div class="container body-content">
   <div class="row">
     <div class="well well-lg" style="max-height:500px; overflow:scroll; margin: 20px 20px 20px 20px; padding:20px 20px 20px 20px">
@@ -57,8 +65,10 @@ End Code
             Requirements
           </div>
           <div class="tab-pane" id="plans">
-            PLAN
-          </div>
+              <div class="generated-style" style="overflow:auto">
+                  @Html.Partial("_Semester")
+              </div>
+            </div>
           <div class="tab-pane" id="audits">
             SHOW AN AUDIT!
           </div>

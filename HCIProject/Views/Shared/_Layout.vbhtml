@@ -8,13 +8,17 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body style="padding-top:0 !important;">
-    <div class="navbar navbar-fixed-top" style="position:relative; border-bottom:solid; border-bottom-color:red;">
-        <div class="container" >
-            @Html.Partial("Header")
-            <ul class="nav navbar-nav">
-                <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-            </ul>
+    <div class="navbar navbar-fixed-top" style="position:relative; height:15%;">
+        <div class="container">
+            <div style="border-bottom:solid; border-bottom-color:red">
+                @Html.Partial("Header")
+            </div>
+            <div style="background-color:lightgray; border-bottom:solid; border-bottom-color:red;">
+                <ul class="nav navbar-nav" style="display:inline-flex;">
+                    <li>@Html.ActionLink("Home", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Planner", "Index", "Home")</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="container body-content">
