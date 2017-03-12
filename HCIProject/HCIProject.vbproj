@@ -181,8 +181,9 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\course.vb" />
-    <Compile Include="Models\semester.vb" />
+    <Compile Include="Models\Base\Entity.vb" />
+    <Compile Include="Models\Course.vb" />
+    <Compile Include="Models\SemesterPlan.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -199,6 +200,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="ViewModels\Base\EntityViewModel.vb" />
+    <Compile Include="ViewModels\CoursesViewModel.vb" />
+    <Compile Include="ViewModels\CourseViewModel.vb" />
+    <Compile Include="ViewModels\SemesterPlansViewModel.vb" />
+    <Compile Include="ViewModels\SemesterPlanViewModel.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -240,6 +246,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_Semester.vbhtml" />
+    <Content Include="Views\EditorTemplates\SemesterPlansViewModel.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -273,6 +280,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\DisplayTemplates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

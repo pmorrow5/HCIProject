@@ -1,4 +1,4 @@
-﻿@ModelType HCIProject.semester
+﻿@ModelType HCIProject.SemesterPlan
 <link href="~/Content/semester_style.css" rel="stylesheet" />
 <link href="~/Content/bootstrap.css" rel="stylesheet" />
 

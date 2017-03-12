@@ -1,8 +1,8 @@
 ﻿Imports HCIProject.Models.Base
 
-Public Class Course
+Public Class SemesterPlan
   Inherits Entity
 
-  Public Name As String
+  Public Courses As List(Of course)
 
 End Class
