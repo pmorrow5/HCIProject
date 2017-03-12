@@ -126,31 +126,37 @@
         <div class="page-header">
           <h2>Semester Plans</h2>
         </div>
-        <div Class="container" style="margin-left:150px">
+        <div Class="container">
           <div Class="panel panel-default">
-            <div Class="row">
+            <div Class="row" id="row1">
               <div Class="col-lg-3 col-md-3 col-sm-3">
                 <div Class="panel panel-default" style="height:275px">
-                  <div id="btnAddSemesterPlan" Class="btn btn-primary glpyhicon glyphicon-plus" style="width:100%"></div>
+                  <div id="btnAddCourse" Class="btn btn-primary glpyhicon glyphicon-plus" style="width:100%"></div>
                 </div>
               </div>
               <div Class="col-lg-3 col-md-3 col-sm-3">
                 <div Class="panel panel-default" style="height:275px">
-                  <div id="btnAddSemesterPlan" Class="btn btn-primary glpyhicon glyphicon-plus" style="width:100%"></div>
+                  <div id="btnAddCourse" Class="btn btn-primary glpyhicon glyphicon-plus" style="width:100%"></div>
                 </div>
               </div>
               <div Class="col-lg-3 col-md-3 col-sm-3">
                 <div Class="panel panel-default" style="height:275px">
-                  <div id="btnAddSemesterPlan" Class="btn btn-primary glpyhicon glyphicon-plus" style="width:100%"></div>
+                  <div id="btnAddCourse" Class="btn btn-primary glpyhicon glyphicon-plus" style="width:100%"></div>
                 </div>
               </div>
               <div Class="col-lg-3 col-md-3 col-sm-3">
                 <div Class="panel panel-default" style="height:275px">
-                  <div id="btnAddCourse" Class="btn btn-primary glpyhicon glyphicon-plus" style="margin:45% 45% 45% 42%"></div>
+                  <div id="btnAddCourse" Class="btn btn-primary glpyhicon glyphicon-plus" style="width:100%"></div>
                 </div>
               </div>
             </div>
-          </div>
+            <div Class="row" id="row2">
+              <div Class="col-lg-3 col-md-3 col-sm-3">
+                <div Class="panel panel-default" style="height:275px">
+                  <div id="btnAddSemesterPlan" Class="btn btn-primary glpyhicon glyphicon-plus" style="margin:45% 45% 45% 42%"></div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
       <!-- Semster Plans Tab -->
@@ -163,3 +169,7 @@
     </div>
   </div>
 </div>
+
+@section scripts
+  @Scripts.Render("~/bundles/index")
+  end section
