@@ -1,4 +1,13 @@
 ﻿$(function () {
+  $("#tabs").hide();
+  $("#major").on("change", function () {
+    $('#tabs').show();
+  });
+
+
+  $("#audit").on("click", function () {
+    $('#audit').css("background-color", "none");
+  });
 
   //click event handler for btnAddFundingPartner
   $("#btnAddSemesterPlan").on("click", function () {
@@ -20,14 +29,17 @@
       row1.appendChild(fragment);
       
       $("#btnAddCourseR1" + nButtonNumber).on("click", function (e) {
-
-        var fragment = document.createElement("div");
-        fragment.innerHTML = '<input type="text" class="form-control" id="course" style="margin-left:12px;margin-top:10px;width:90%;">';
         var addCourseButton = document.getElementById("btnAddCourseR1" + nButtonNumber);
-
         var panelChildren = addCourseButton.parentNode.children;
         var panelChildrenLength = panelChildren.length;
+
+        var fragment = document.createElement("div");
+        fragment.innerHTML = '<input type="text" class="form-control" id="courseR1' + nButtonNumber + panelChildrenLength + '" style="margin-left:12px;margin-top:10px;width:90%;">';
+
         addCourseButton.parentNode.insertBefore(fragment, panelChildren[panelChildrenLength - 1]);
+        $("#courseR1" + nButtonNumber + panelChildrenLength).on("change", function () {
+          $('#audit').css("background-color", "gold");
+        });
       });
 
     } else {
@@ -40,17 +52,17 @@
         row2.appendChild(fragment);
         
         $("#btnAddCourseR2" + nButtonNumber).on("click", function (e) {
-
-          var fragment = document.createElement("div");
-          fragment.innerHTML = '<input type="text" class="form-control" id="course" style="margin-left:12px;margin-top:10px;width:90%;">';
           var addCourseButton = document.getElementById("btnAddCourseR2" + nButtonNumber);
-
           var panelChildren = addCourseButton.parentNode.children;
           var panelChildrenLength = panelChildren.length;
+
+          var fragment = document.createElement("div");
+          fragment.innerHTML = '<input type="text" class="form-control" id="courseR2' + nButtonNumber + panelChildrenLength + '" style="margin-left:12px;margin-top:10px;width:90%;">';
+
           addCourseButton.parentNode.insertBefore(fragment, panelChildren[panelChildrenLength - 1]);
 
-          $("#course").on("change", function () {
-            var test = "";
+          $("#courseR2" + nButtonNumber + panelChildrenLength).on("change", function () {
+            $('#audit').css("background-color", "gold");
           });
         });
       }

@@ -13,12 +13,6 @@
             <div style="border-bottom:solid; border-bottom-color:red">
                 @Html.Partial("Header")
             </div>
-            <div style="background-color:lightgray; border-bottom:solid; border-bottom-color:red;">
-                <ul class="nav navbar-nav" style="display:inline-flex;">
-                    <li>@Html.ActionLink("Home", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Planner", "Index", "Home")</li>
-                </ul>
-            </div>
         </div>
     </div>
     <div class="container body-content">
