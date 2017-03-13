@@ -23,7 +23,9 @@
             <p Class="quick-points"><span class="quick-point-bold">MINIMUM CUMULATIVE GPA:</span> 2.0 for graduation</p>
             <p Class="quick-points"><span class="quick-point-bold">MINOR AVAILABLE:</span> Yes</p>
             <p Class="quick-points"><span class="quick-point-bold">ADVISOR:</span> Charles Riedesel</p>
-            <h2>Major Description</h2>
+            <div class="page-header">
+              <h2>Major Description</h2>
+            </div>
             <p Class="faculty-list"><span class="faculty-list-bold">Chair: Matthew Dwyer, </span>256 Avery</p>
             <p Class="faculty-list"><span class="faculty-list-bold">Professors:</span> Deogun, Dwyer, Elbaum, Goddard, Jiang (emeritus), Ramamurthy, Reichenbach, Revesz, Rothermel, Samal, Seth (emeritus), Sincovec (emeritus), Surkan (emeritus),Variyam</p>
             <p Class="faculty-list"><span class="faculty-list-bold">Associate Professors:</span> Choueiry, Cohen, Costello (emeritus), Lu, Sarma, Scott, Soh, Srisa-An, Vuran, Xu</p>
@@ -136,14 +138,13 @@
             </div>
         </div>
       </div>
-      <!-- Semster Plans Tab -->
-      <div id = "audits" Class="tab-pane fade col-sm-12">
+    </div>
+      <div id="audits" Class="tab-pane fade col-sm-12">
         <div class="page-header">
           <h2>Degree Audit</h2>
         </div>
         SHOW AN AUDIT!
       </div>
-    </div>
   </div>
 </div>
 
