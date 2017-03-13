@@ -1,10 +1,10 @@
 ﻿@Code
-    ViewData("Title") = "Planner"
+    ViewData("Title") = "Welcome!"
 End Code
 
-<h2>@ViewData("Title").</h2>
-<h3>@ViewData("Message")</h3>
+<h2>@ViewData("Title")</h2>
 
 <div>
-    
+    <text>Select a Major to continue.</text><br>
+    <input type="text" autocomplete="on" value="Select a Major" />
 </div>
