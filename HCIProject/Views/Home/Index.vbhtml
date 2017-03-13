@@ -6,7 +6,7 @@
       <li class="active"><a data-toggle="tab" href="#details">Major Details</a></li>
         <li><a data-toggle="tab" href="#requirements">Major Requirements</a></li>
         <li><a data-toggle="tab" href="#plans">SemesterPlans</a></li>
-        <li><a data-toggle="tab" href="#audits">DegreeAudit</a></li>
+        <li><a id="audit" data-toggle="tab" href="#audits">DegreeAudit</a></li>
     </ul>
 
     <div Class="tab-content">

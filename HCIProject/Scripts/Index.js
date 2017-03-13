@@ -48,6 +48,10 @@
           var panelChildren = addCourseButton.parentNode.children;
           var panelChildrenLength = panelChildren.length;
           addCourseButton.parentNode.insertBefore(fragment, panelChildren[panelChildrenLength - 1]);
+
+          $("#course").on("change", function () {
+            var test = "";
+          });
         });
       }
     }
