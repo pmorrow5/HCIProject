@@ -1,9 +1,9 @@
 ﻿@ModelType HCIProject.ViewModels.SemesterPlansViewModel
 
 <div class="container body-content">
-    <div class="row col-sm-12">
+    <div class="row col-sm-12" style="padding: 5%;">
         <text style="padding-right:10%;">Major: Computer Science</text>
-        <input type="text" autocomplete="on" value="Add a Minor"/>
+        <input type="text" class="form-control" autocomplete="on" value="Add a Minor" />
     </div>
     <div class="row col-sm-12">
         <ul class="nav nav-tabs">
@@ -11,6 +11,7 @@
             <li><a data-toggle="tab" href="#requirements">Major Requirements</a></li>
             <li><a data-toggle="tab" href="#plans">Semester Plans</a></li>
             <li><a data-toggle="tab" href="#audits">Degree Audit</a></li>
+            <li><a data-toggle="tab" href="#help">Help</a></li>
         </ul>
 
         <div Class="tab-content">
@@ -3878,11 +3879,8 @@
 
                                             </tbody>
                                         </table>
-
-
                                     </div>
                                 </div>
-
                             </div>
                             <hr>
                         </div>
@@ -3910,7 +3908,49 @@
                     </div>
 
                 </div>
+            </div>
+            <!-- Help Tab-->
+            <div id="help" class="tab-pane fade col-sm-12">
+                <div class="page-header">
+                    <h2>Help</h2>
                 </div>
+                <div>
+                    <p>Our application is used to create a mock four – year plan for students at UNL. Our application allows the user to change majors, add minors, and add courses. As the major/minor changes, so do the mock degree audit and the major requirements.</p>
+
+                    <p>After selecting your major, your Details, Requirements, and Degree Audit Tabs will automatically update to show infomation pertaining to your major.</p>
+
+                    Tabs -
+                    <ul>
+                        <li>Details
+                            <ul>
+                                <li>Major information</li>
+                                <li>Contacts</li>
+                                <li>Required hours</li>
+                                <li>College specifics</li>
+                            </ul>
+                        </li>
+                        <li>Requirements
+                            <ul>
+                                <li>Detailed information about required courses</li>
+                            </ul>
+                        </li>
+                        <li>Semester Plan
+                            <ul>
+                                <li>
+                                    Add courses
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Degree Audit
+                            <ul>
+                                <li>Main reference when selecting courses</li>
+                                <li>Shows status of each individual requirement</li>
+                                <li>List of classes available for degree requirements</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
