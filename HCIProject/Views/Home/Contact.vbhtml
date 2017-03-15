@@ -6,5 +6,5 @@ End Code
 
 <div>
     <text>Select a Major to continue.</text><br>
-    <input type="text" class="form-control" autocomplete="on" value="Select a Major" />
+    <input type="text" class="form-control" autocomplete="on" placeholder="Select a Major" />
 </div>

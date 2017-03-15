@@ -3,8 +3,8 @@
 <link href="~/Content/bootstrap.css" rel="stylesheet" />
 
 <div class="semester-wrapper">
-    <div class="semester-header">
-        Spring 2017
+    <div class="semester-header form-control">
+        getSemester();
     </div>
     <div class="semester-body">
         <ul id="spr17" style="list-style:none; padding-left:0;">
