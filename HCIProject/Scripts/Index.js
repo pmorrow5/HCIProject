@@ -29,6 +29,12 @@ function getSemester() {
 
 $(function () {
   $("#tabs").hide();
+
+  $("#minorInput").on("change", function () {
+    $("#minorPlanA").show();
+  });
+
+  
   $("#major").on("change", function () {
       if (this.value == "Computer Science") {
           $('#tabs').show();
@@ -41,7 +47,7 @@ $(function () {
 
 
   $("#audit").on("click", function () {
-    $('#audit').css("background-color", "none");
+    $('#audit').css("background-color", "");
   });
 
   //click event handler for btnAddFundingPartner
