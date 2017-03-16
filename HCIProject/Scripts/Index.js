@@ -1,30 +1,30 @@
 ﻿
 //IF OUR PROGRAM CRASHES, THIS FUNCTION IS THE CULPRIT.
 function getSemester() {
-    var currentSemester = $("#CurrentSemester").val();
+  var currentSemester = $("#CurrentSemester").val();
 
-    var today = new Date();
-    var month = today.getMonth()+1; //0 indexed
-    var year = today.getFullYear();
-    
+  var today = new Date();
+  var month = today.getMonth() + 1; //0 indexed
+  var year = today.getFullYear();
 
-    if (currentSemester == "") {
-        if(month >= 6){
-            currentSemester = "Spring ";
 
-        } else {
-            currentSemester = "Fall ";
-        }
+  if (currentSemester == "") {
+    if (month >= 6) {
+      currentSemester = "Spring ";
 
-        currentSemester += year;
-    } else if (currentSemester.split(" ")[0] == "Spring") {
-        currentSemester = "Fall " + currentSemester.split(" ")[1];
     } else {
-        currentSemester = "Spring " + (parseInt(currentSemester.split(" ")[1]) + 1);
+      currentSemester = "Fall ";
     }
 
-    $("#CurrentSemester").val(currentSemester);
-    return currentSemester;
+    currentSemester += year;
+  } else if (currentSemester.split(" ")[0] == "Spring") {
+    currentSemester = "Fall " + currentSemester.split(" ")[1];
+  } else {
+    currentSemester = "Spring " + (parseInt(currentSemester.split(" ")[1]) + 1);
+  }
+
+  $("#CurrentSemester").val(currentSemester);
+  return currentSemester;
 }
 
 $(function () {
@@ -34,15 +34,46 @@ $(function () {
     $("#minorPlanA").show();
   });
 
-  
+  $("#plans").on("change", function (e) {
+    var courseName = $(e.target).val();
+
+    if (courseName == "CSCE 155A - Computer Science I" || courseName == "CSCE 156 - Computer Science II" || courseName == "CSCE 230 - Computer Organization" || courseName == "CSCE 235 - Introduction to Discrete Structures") {
+      var li = document.createElement("li");
+      var textNode = document.createTextNode(courseName);
+      li.appendChild(textNode);
+      $('#CSC').append(li);
+    }
+
+    if (courseName == "CSCE 310 - Data Structures & Algorithms" || courseName == "CSCE 322 - Programming Language Concepts" || courseName == "CSCE 351 - Operating System Kernals" || courseName == "CSCE 235 - Introduction to Discrete Structures") {
+      var li = document.createElement("li");
+      var textNode = document.createTextNode(courseName);
+      li.appendChild(textNode);
+      $('#CSCC').append(li);
+    }
+
+    if (courseName == "CSCE 361 - Software Engineering" || courseName == "CSCE 378 - Human-Computer Interaction") {
+      var li = document.createElement("li");
+      var textNode = document.createTextNode(courseName);
+      li.appendChild(textNode);
+      $('#CSDC').append(li);
+    }
+
+    if (courseName == "MATH 106 - Calculus I" || courseName == "MATH 107 - Calculus II" || courseName == "MATH 208 - Calculus III" || courseName == "MATH314 - Linear Algebra" || courseName == "STAT 380 - Stats & Applications") {
+      var li = document.createElement("li");
+      var textNode = document.createTextNode(courseName);
+      li.appendChild(textNode);
+      $('#MATH').append(li);
+    }
+  });
+
   $("#major").on("change", function () {
-      if (this.value == "Computer Science") {
-          $('#tabs').show();
-          $('#ErrorMessage').hide();
-      } else {
-          $('#ErrorMessage')[0].innerHTML = "You must select Computer Science as your major.";
-          $('#ErrorMessage').show();
-          }
+    if (this.value == "Computer Science") {
+      $('#tabs').show();
+      $('#ErrorMessage').hide();
+    } else {
+      $('#ErrorMessage')[0].innerHTML = "You must select Computer Science as your major.";
+      $('#ErrorMessage').show();
+    }
   });
 
 
@@ -54,7 +85,7 @@ $(function () {
   $("#btnAddSemesterPlan").on("click", function () {
 
     var semester = document.getElementById("row1");
-    
+
     var nButtonNumber;
     var bButtonAdded = false;
     var fragment = document.createElement("div");
@@ -65,10 +96,10 @@ $(function () {
     var row1 = document.getElementById("row1");
     if (row1.children.length < 4) {
       nButtonNumber = row1.children.length;
-      fragment.innerHTML = '<div Class="col-lg-3 col-md-3 col-sm-3"><div style="height:10%; text-align:center; font-size:x-large;">'+ getSemester() +'</div><div Class="panel panel-default" style="height:275px; overflow-y:auto;"><div id="btnAddCourseR1' + nButtonNumber + '" Class="btn btn-primary" style="margin-left:12px; margin-top:10px; width:90%;">Add Course</div></div></div></div>';
+      fragment.innerHTML = '<div Class="col-lg-3 col-md-3 col-sm-3"><div style="height:10%; text-align:center; font-size:x-large;">' + getSemester() + '</div><div Class="panel panel-default" style="height:275px; overflow-y:auto;"><div id="btnAddCourseR1' + nButtonNumber + '" Class="btn btn-primary" style="margin-left:12px; margin-top:10px; width:90%;">Add Course</div></div></div></div>';
 
       row1.appendChild(fragment);
-      
+
       $("#btnAddCourseR1" + nButtonNumber).on("click", function (e) {
         var addCourseButton = document.getElementById("btnAddCourseR1" + nButtonNumber);
         var panelChildren = addCourseButton.parentNode.children;
@@ -91,7 +122,7 @@ $(function () {
         fragment.innerHTML = '<div Class="col-lg-3 col-md-3 col-sm-3"><div style="height:10%; text-align:center; font-size:x-large;">' + getSemester() + '</div><div Class="panel panel-default" style="height:275px; overflow-y:auto;"><div id="btnAddCourseR2' + nButtonNumber + '" Class="btn btn-primary" style="margin-left:12px; margin-top:10px; width:90%;">Add Course</div></div></div></div>';
 
         row2.appendChild(fragment);
-        
+
         $("#btnAddCourseR2" + nButtonNumber).on("click", function (e) {
           var addCourseButton = document.getElementById("btnAddCourseR2" + nButtonNumber);
           var panelChildren = addCourseButton.parentNode.children;
@@ -111,7 +142,7 @@ $(function () {
 
     if (bButtonAdded) {
       //click event handler for btnAddFundingPartner
-      
+
     }
   });
 })

@@ -7,7 +7,6 @@
       <input type="hidden" id="CurrentSemester" value="" />
       <datalist id="courseList">
         <option value="CSCE 155A - Computer Science I"></option>
-        <option value="CHEM 109 - General Chemistry I"></option>
         <option value="CSCE 156 - Computer Science II"></option>
         <option value="CSCE 230 - Computer Organization"></option>
         <option value="CSCE 235 - Introduction to Discrete Structures"></option>
@@ -17,10 +16,9 @@
         <option value="CSCE 361 - Software Engineering"></option>
         <option value="CSCE 378 - Human-Computer Interaction"></option>
         <option value="MATH 106 - Calculus I"></option>
-        <option value="MATH 107	- Calculus II"></option>
+        <option value="MATH 107 - Calculus II"></option>
         <option value="MATH 208 - Calculus III"></option>
         <option value="MATH314 - Linear Algebra"></option>
-        <option value="PHYS 211 - General Physics I"></option>
         <option value="STAT 380 - Stats & Applications"></option>
       </datalist>
       <datalist id="majorList">
@@ -182,234 +180,6 @@
       </div>
       <!-- Degree Audit Tab -->
       <div id="audits" Class="tab-pane fade col-sm-12">
-        <div class="requirement Status_OK  category_HIDDEN   rname_ASCN  rtabx_04" id="req-9510168a-0b91-4f19-933a-0e00135d0d9e" rname="ASCN" pseudo="ASCN" rqdsubreq="2" rqdcount="0" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.00000" authcode1="" authcode2="">
-          <div class="reqHeaderTable">
-            <h3 class="sr-only">Requirement: </h3>
-            <div class="reqStatusGroup">
-              <div class="glyphicon glyphicon-remove"></div>
-            </div>  <div class="reqText">
-              <h4>UNL ADMISSION REQUIREMENTS</h4>(Processed using new Admission Standards)
-            </div>
-          </div>
-        </div>
-        <div class="requirement Status_NONE  category_HIDDEN   rname_ASC60HR  rtabx_08" id="req-3f2107ba-c583-48a9-a478-b31a0bc24e7f" rname="ASC60HR" pseudo="ASC60HR" rqdsubreq="0" rqdcount="0" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.00000" authcode1="" authcode2="">
-          <div class="reqHeaderTable">
-            <div class="reqStatusGroup">
-              <div class="glyphicon glyphicon-remove"></div>
-            </div>
-            <h4>COMMUNITY COLLEGE TRANSFER CREDIT - 60-HOUR LIMIT</h4>
-          </div>
-        </div>
-        <div class="reqBody">
-
-          <div class="auditSubrequirements">
-            <div class="subrequirement" id="subreq-7e496728-916a-4837-b753-43f0904852ea" pseudo="ASC60HR" rqdsubreq="0" rqdgpa="0.00000" rqdhours="60.00000" maxhours="60.00000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <span class="subreqTitle">A maximum of 60 hours from 2-year, technical and<br>international schools may apply toward total hours.<br><br>Applicability of transfer course work toward specific<br>degree requirements may be subject to change if the<br>60-hour rule has been exceeded. Please contact your<br>college advising office for appropriate adjustments.</span>
-              </div>
-            </div>
-          </div>
-          <hr>
-        </div>
-
-        <div class="requirement Status_NO  category_Total_Hours/GPA   rname_ASCHRS-1  rtabx_09" id="req-e8f524ae-f618-4c28-8fa8-c55e01e0a47e" rname="ASCHRS-1" pseudo="ASCHRS-1" rqdsubreq="3" rqdcount="0" rqdgpa="0.00000" rqdhours="0.00000" maxhours="120.00000" authcode1="" authcode2="">
-          <div class="reqHeaderTable">
-            <h4>
-              Requirement: General Graduation Requirements
-            </h4>
-            <div class="reqStatusGroup">
-              <div class="glyphicon glyphicon-remove"></div>
-            </div>  <div class="reqText">
-              <b>GENERAL GRADUATION REQUIREMENTS</b>
-            </div>
-          </div>
-          <div class="reqBody">
-            <div class="auditSubrequirements">
-              <ul>
-                <li>A minimum 2.00 GPA required for graduation.</li>
-                <li>Complete 30 hours in residence at UNL.</li>
-                <li>A maximum of 12 hours of Military Science, Naval Science, Aerospace Studies, First Aid, Orientation and Study Skills courses may apply toward total hours.</li>
-              </ul>
-            </div>
-            <hr>
-          </div>
-        </div>
-
-        <div class="requirement Status_NO  category_ACE   rname_ACE  rtabx_13" id="req-152b601d-10be-4760-b280-d32adc5881b3" rname="ACE" pseudo="ACE" rqdsubreq="10" rqdcount="0" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.00000" authcode1=" " authcode2=" ">
-          <div class="reqHeaderTable">
-            <h3 class="sr-only">Requirement: Achievement Centered Educ</h3>
-            <div class="reqStatusGroup">
-              <div class="glyphicon glyphicon-remove"></div>
-            </div>  <div class="reqText">
-              <div class="requirement-buttons"></div>
-              <div class="reqHeader">					</div>
-              <h4>ACE: ACHIEVEMENT-CENTERED EDUCATION</h4>
-              <ul>
-                <li>No more than 3 courses may be taken from any one dept in ACE Outcomes 4-10.</li>
-                <li>An ACE course approved for more than one outcome will fulfill one ACE outcome only.</li>
-              </ul>
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="reqBody">
-
-          <div class="auditSubrequirements">
-            <div class="subrequirement" id="subreq-70b5afc1-c4f2-4a67-8b99-ad437198c3c7" pseudo="ACE1" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 1. Written Texts Incorporating Research and Knowledge Skills</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-8ee3c529-e53b-4618-8a3e-71865b15b594" pseudo="ACE2" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 2. Communication Skills</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-dac75e1e-135b-40bf-9c21-e8730a89b237" pseudo="ACE3" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 3. Mathematical, Computational, Statistical or Formal Reasoning Skills</span></b>
-
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-fe5bb330-83e1-4fc8-b77c-5a452a811b05" pseudo="ACE4" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 4. Study of Scientific Methods and Knowledge of the Natural and Physical World</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-4e966627-5bc9-49ea-9f83-aaacceed2da9" pseudo="ACE5" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 5. Study of Humanities</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-d540e9e7-16dc-46ff-a962-cda49ca23155" pseudo="ACE6" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 6. Study of Social Sciences</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-d26314fa-2159-4870-aa40-8eff05ad2442" pseudo="ACE7" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 7. Study of the Arts to Understand Their Context and Significance</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-f31d2cb0-3895-40d0-82f9-614fd00fdcee" pseudo="ACE8" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 8. Ethical Principles, Civics and Stewardship and Their Importance to Society</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-5b60389a-cf05-49ac-8ad2-66bccc111bdb" pseudo="ACE9" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b><span class="subreqTitle">ACE 9. Global Awareness or Knowledge of Human Diversity through Analysis of an Issue</span></b>
-              </div>
-            </div>
-            <div class="subrequirement" id="subreq-ff95e53f-740c-4d36-bc30-9eb3bdf38a29" pseudo="ACE10" rqdsubreq="1" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-              <div class="subreqBody">
-                <div class="subrequirement-buttons"></div>
-                <b>
-                  <span class="subreqTitle">ACE 10. Integration of Abilities and Capacities in a Creative or Scholarly Product</span>
-                </b>
-              </div>
-            </div>
-
-          </div>
-          <hr>
-        </div>
-
-        <div class="requirement Status_NO  category_Distribution   rname_ASCDIST  rtabx_14" id="req-e3cbcca6-9323-4e18-9149-0aa3deec9a36" rname="ASCDIST" pseudo="ASCDIST" rqdsubreq="5" rqdcount="0" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.00000" authcode1="" authcode2="">
-          <div class="reqHeaderTable">
-            <h3 class="sr-only">Requirement: ASC Distribution Reqt</h3>
-            <div class="reqStatusGroup">
-              <div class="glyphicon glyphicon-remove"></div>
-            </div>  <div class="reqText">
-              <div class="requirement-buttons"></div>
-              <div class="reqHeader">					</div>
-              <h4><div class="reqTitle">COLLEGE OF ARTS &amp; SCIENCES DISTRIBUTION REQUIREMENT</div></h4>
-            </div>
-          </div>
-          <div class="reqBody">
-
-            <div class="auditSubrequirements">
-              <div class="subrequirement" id="subreq-039c4be0-40b3-4d3f-94d8-8387b08a8d22" pseudo="ASC-A" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-                <div class="subreqBody">
-                  <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">CDR A. Written Communication</span></b>
-                </div>
-              </div>
-              <div class="subrequirement" id="subreq-426bd177-9c2b-490f-8178-3bb12f11d8a5" pseudo="ASC-B" rqdsubreq="1" rqdgpa="0.00000" rqdhours="4.00000" maxhours="999.90000">
-                <div class="subreqBody">
-
-                  <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">CDR B. Natural, Physical &amp; Mathematical Sciences</span></b>
-                </div>
-              </div>
-              <div class="subrequirement" id="subreq-7cc1ec59-0ff8-4d92-a5bb-cdcd9fa38f18" pseudo="ASCLAB" rqdsubreq="1" rqdgpa="0.00000" rqdhours="0.00000" maxhours="0.00000">
-                <div class="subreqBody">
-                  <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">CDR B. Natural/Physical Science Lab</span></b>
-                </div>
-              </div>
-              <div class="subrequirement" id="subreq-85b3ffaf-e6bd-4a40-93b1-d2c611ebedcd" pseudo="ASC-C" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-                <div class="subreqBody">
-                  <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">CDR C. Humanities</span></b>
-
-                </div>
-              </div>
-              <div class="subrequirement" id="subreq-5607771a-eeb8-4435-86ee-0d96c2fb8f81" pseudo="ASC-D" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-                <div class="subreqBody">
-                  <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">CDR D. Social Sciences</span></b>
-                </div>
-              </div>
-
-            </div>
-            <hr>
-          </div>
-        </div>
-
-        <div class="requirement Status_IP  category_Language   rname_ASCLANG  rtabx_12" id="req-9cd57e2d-18ec-47e7-b901-9f0b66c58531" rname="ASCLANG" pseudo="ASCLANG" rqdsubreq="1" rqdcount="0" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.00000" authcode1="" authcode2="">
-          <div class="reqHeaderTable">
-            <h3 class="sr-only">Requirement: CDR E Lang Reqt</h3>
-            <div class="reqStatusGroup">
-              <div class="glyphicon glyphicon-remove"></div>
-            </div>  <div class="reqText">
-              <div class="requirement-buttons"></div>
-              <div class="reqHeader">					</div>
-              <h4><div class="reqTitle">COLLEGE OF ARTS &amp; SCIENCES DISTRIBUTION REQUIREMENT</h4>
-              <br><b>CDR E: Language Requirement (Classical and Modern)</b>
-              <ul>
-                <li>Single Foreign Language Sequence (0-6 Hrs)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="requirement Status_OK  category_Breadth   rname_ASCCOMP-B  rtabx_15" id="req-ff7e64ef-e0fb-4c53-8634-7fbe130cc4c5" rname="ASCCOMP-B" pseudo="ASCDIST-B" rqdsubreq="1" rqdcount="0" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.00000" authcode1="" authcode2="">
-          <div class="reqHeaderTable">
-            <h3 class="sr-only">Requirement: Additional Breadth Reqt</h3>
-            <div class="reqStatusGroup">
-              <div class="glyphicon glyphicon-remove"></div>
-            </div>  <div class="reqText">
-              <div class="requirement-buttons"></div>
-              <div class="reqHeader">					</div>
-              <div class="reqTitle"><h4>COLLEGE OF ARTS &amp; SCIENCES DISTRIBUTION REQUIREMENT</h4><br><b>CDR F:  Additional Breadth Requirement</b>						</div>
-              <ul>
-                <li>Additional Breadth Requirement.</li>
-                <li>Note: May not be used toward the primary major; may apply toward ancillary requirements and second majors.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
         <div class="requirement Status_NO  category_Major   rname_ASCCOMP  rtabx_17" id="req-9371e280-d1e6-48b2-93fb-59f3c5547775" rname="ASCCOMP" pseudo="ASCCOMP" rqdsubreq="10" rqdcount="0" rqdgpa="0.00000" rqdhours="44.00000" maxhours="999.00000" authcode1=" " authcode2=" ">
           <div class="reqHeaderTable">
             <h4 class="sr-only">Requirement: Computer Science Major</h4>
@@ -432,16 +202,19 @@
             <div class="auditSubrequirements">
               <div class="subrequirement" id="subreq-a7d4e928-0131-4bf2-b97e-99c55a9bc704" pseudo="ASCCOMP-CORE" rqdsubreq="5" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.90000">
                 <div class="subreqBody">
-                  <div class="subrequirement-buttons"></div>
                   <b>
                     <span class="subreqTitle">Computer Science Core (16 Hrs).</span>
                   </b>
+                  <br>
+                  Added Classes:
+                  <ul id="CSC"></ul>
                 </div>
               </div>
               <div class="subrequirement" id="subreq-28707393-6212-4f27-898a-32e167437f85" pseudo="ASCCOMP-COMCORE" rqdsubreq="3" rqdgpa="0.00000" rqdhours="0.00000" maxhours="999.90000">
                 <div class="subreqBody">
-                  <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">Computer Science Common Core (8 Hrs).</span></b>
+                  <b><span class="subreqTitle">Computer Science Common Core (8 Hrs).</span></b><br>
+                  Added Classes:
+                  <ul id="CSCC"></ul>
                 </div>
               </div>
               <div class="subrequirement" id="subreq-98200818-0652-4d9d-9731-055c881c3ff2" pseudo="ASCCOMP-DEPTH" rqdsubreq="0" rqdgpa="0.00000" rqdhours="6.00000" maxhours="999.90000">
@@ -449,20 +222,15 @@
                   <div class="subrequirement-buttons"></div>
                   <b>
                     <span class="subreqTitle">Computer Science Depth Courses (6 Hrs).</span>
-                  </b>
+                  </b><br>
+                  Added Classes:
+                  <ul id="CSDC"></ul>
                 </div>
               </div>
               <div class="subrequirement" id="subreq-dd050a89-9ac1-40dd-b237-4a6833d61d07" pseudo="ASCCOMP-1DESIGN" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-                <div class="subreqBody">
+                <div id="SDE" class="subreqBody">
                   <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">Senior Design Experience (3 Hrs).</span></b>
-
-                </div>
-              </div>
-              <div class="subrequirement" id="subreq-ec69fe38-8ed6-4cf2-aa33-1f3cae703ed6" pseudo="ASCCOMP-DESIGN" rqdsubreq="0" rqdgpa="0.00000" rqdhours="3.00000" maxhours="999.90000">
-                <div class="subreqBody">
-                  <div class="subrequirement-buttons"></div>
-                  <b><span class="subreqTitle">Senior Design Experience (3 Hrs).</span></b>
+                  <b><span class="subreqTitle">Senior Design Experience (6 Hrs).</span></b>
 
                 </div>
               </div>
@@ -569,17 +337,14 @@
                 <div class="subreqBody">
                   <div class="subrequirement-buttons"></div>
                   <b><span class="subreqTitle">Science Requirement.</span></b>
-
                 </div>
               </div>
               <div class="subrequirement" id="subreq-829024a7-079c-45dc-b888-5a898b10f182" pseudo="ASCCOMP-LAB" rqdsubreq="1" rqdgpa="0.00000" rqdhours="0.00000" maxhours="0.00000">
                 <div class="subreqBody">
                   <div class="subrequirement-buttons"></div>
                   <b><span class="subreqTitle">Required Laboratory.</span></b>
-
                 </div>
               </div>
-
             </div>
             <hr>
           </div>
@@ -599,6 +364,9 @@
                 <li>No Calculus course may be taken Pass/No Pass.</li>
                 <li>No more than 3 hours of advanced Math may be taken taken Pass/No Pass.</li>
               </ul>
+            <br>
+                      Added Classes:
+                      <ul id="MATH"></ul>
             </div>
           </div>
           <div class="reqBody">
